@@ -4,7 +4,8 @@
   "description": "Discord bot for Dungeons and Dragons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ehorodyski/dungeon-demon/issues"
   },
-  "homepage": "https://github.com/ehorodyski/dungeon-demon#readme"
+  "homepage": "https://github.com/ehorodyski/dungeon-demon#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
